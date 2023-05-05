@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Digital;
+    src: url(DS-DIGIB.TTF);
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#main-div{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 50px auto;
+    background-color: #1a234a;
+    color: #eeeeee;
+
+}
+
+.scoreboard{
+    margin: 15px auto;
+    width: 120px;
+    height: 100px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 8px;
+    font-family: "Digital";
+    color: #f9506d;
+    font-size: 90px;
+    text-align: center;
+    margin: auto auto;
+}
+
+.main-text{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.add-score{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.add-button{
+    width: 35px;
+    height: 35px;
+    margin: 0px 1px;
+    font-family: "Digital";
+    background-color: #1a234a;
+    border: 1px solid #7f8bb4;
+    color: #7f8bb4;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.add-button:hover{
+    background-color: hsl(238, 86%, 11%);
+}
